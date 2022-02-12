@@ -3,7 +3,7 @@
 Hi there. Thanx for visiting this page.
 I have forked the Padawan360 software system from Dan Kraus, to modify it for my needs.
 Reason for that is simply, I am not getting all Hardware components in the EU as used by the US companions.
-In addition to that, I may like to do changes to the coding at a later stage to make it more congigurable.
+In addition to that, I may like to do changes to the coding at a later stage to make it more configurable.
 
 Furthermore, I like to share here all my changes I did to the Droids Hardware of Mr. Baddeley's droids or other models I am building.
 Below I will keep Dan's structure for the documentation, but will adapt it where needed.
@@ -105,8 +105,8 @@ Some people have had luck making some adjustments to get some 3rd Party receiver
   **Note:** I have seen the controller bundled with the USB receiver together. It was in the gaming peripheals department in my local Microcenter. It's marketed for PC gaming. Nice to get it in one package if you can if you don't have an extra 360 controller to spare.
 
 - ### MP3 Trigger
-
-  [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s.
+  This version is not designed for the usage of the Sparkfun Product. We are using an alternative from Adafruit.
+ ~~ [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s. ~~
 
 - ### Sabertooth Motor Controller - Feet
 
