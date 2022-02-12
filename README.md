@@ -111,10 +111,10 @@ Some people have had luck making some adjustments to get some 3rd Party receiver
     <del> [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s. </del>
 
 - ### Adafruit VX Soundboard
-    [Sourced from SparkFun](https://learn.adafruit.com/adafruit-audio-fx-sound-board/overview) No SD Card needed. But the MP3 files needed to be converted into OGG Format. 
+    [Sourced from Adafruit](https://learn.adafruit.com/adafruit-audio-fx-sound-board/overview) No SD Card needed. But the MP3 files needed to be converted into OGG Format. 
     Piece of cake.
 
-- ### Sabertooth Motor Controller - Feet
+-### Sabertooth Motor Controller - Feet
 
   Depending on your motors you'll want a  [Sabertooth 2x32](https://www.dimensionengineering.com/products/sabertooth2x32), [Sabertooth 2x25](https://www.dimensionengineering.com/products/sabertooth2x25) or [2x12](https://www.dimensionengineering.com/products/sabertooth2x12). The 2x32 and the 2x24 seem to be crossing over price point. Might as well get the 2x32 if you're buying brand new. There's some additional bells and whistles in the 32 and can be programmed via Dimension Engineering's software, but some of those usefuls features are handled in the code, like for speed Ramping for example. My styrene droid with Jaycar motors uses 2x12. Most people tend to use 2x25 or 2x32 for scooter motors and NPC motors. Consult with Dimension Engineering to make sure you get the right one you need. Either one will work with the code
 
