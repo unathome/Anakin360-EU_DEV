@@ -107,7 +107,7 @@ Some people have had luck making some adjustments to get some 3rd Party receiver
 - ### MP3 Trigger
   This version is not designed for the usage of the Sparkfun Product. We are using an alternative from Adafruit. So the MP3 Trigger Lib is no longer needed. Instead we are using the ADafruit Lib.
  
- <del> [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s. </del>
+    <del> [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s. </del>
 
 - ### Sabertooth Motor Controller - Feet
 
