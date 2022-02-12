@@ -1,6 +1,16 @@
-# Padawan360
+# Anakin360-EU_DEV
 
-- [Padawan360](#padawan360)
+Hi there. Thanx for visiting this page.
+I have forked the Padawan360 software system from Dan Kraus, to modify it for my needs.
+Reason for that is simply, I am not getting all Hardware components in the EU as used by the US companions.
+In addition to that, I may like to do changes to the coding at a later stage to make it more congigurable.
+
+Furthermore, I like to share here all my changes I did to the Droids Hardware of Mr. Baddeley's droids or other models I am building.
+Below I will keep Dan's structure for the documentation, but will adapt it where needed.
+
+Feel free to send me any comment by using the Discussions section of this entity.
+
+- [Anakin360](#anakin360)
 - [Intro](#intro)
 - [Components](#components)
   - [Arduino Mega (Option 1 and Recommended!)](#arduino-mega--option-1-and-recommended--)
