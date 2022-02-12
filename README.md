@@ -19,6 +19,7 @@ Feel free to send me any comment by using the Discussions section of this entity
   - [Xbox 360 Wireless USB Receiver](#xbox-360-wireless-usb-receiver)
   - [Xbox 360 Wireless Controller](#xbox-360-wireless-controller)
   - [MP3 Trigger](#mp3-trigger)
+  - [Adafruit VX Soundboard](#Adafruit VX Soundboard)
   - [Sabertooth Motor Controller - Feet](#sabertooth-motor-controller---feet)
   - [Syren Motor Controller - Dome](#syren-motor-controller---dome)
   - [Amp and Speakers](#amp-and-speakers)
@@ -105,9 +106,13 @@ Some people have had luck making some adjustments to get some 3rd Party receiver
   **Note:** I have seen the controller bundled with the USB receiver together. It was in the gaming peripheals department in my local Microcenter. It's marketed for PC gaming. Nice to get it in one package if you can if you don't have an extra 360 controller to spare.
 
 - ### MP3 Trigger
-  This version is not designed for the usage of the Sparkfun Product. We are using an alternative from Adafruit. So the MP3 Trigger Lib is no longer needed. Instead we are using the ADafruit Lib.
+  This version is not designed for the usage of the Sparkfun Product. We are using an alternative from Adafruit.
  
     <del> [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s. </del>
+
+- ### Adafruit VX Soundboard
+    [Sourced from SparkFun](https://learn.adafruit.com/adafruit-audio-fx-sound-board/overview) No SD Card needed. But the MP3 files needed to be converted into OGG Format. 
+    Piece of cake.
 
 - ### Sabertooth Motor Controller - Feet
 
