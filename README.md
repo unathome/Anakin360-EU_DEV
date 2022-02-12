@@ -19,7 +19,7 @@ Feel free to send me any comment by using the Discussions section of this entity
   - [Xbox 360 Wireless USB Receiver](#xbox-360-wireless-usb-receiver)
   - [Xbox 360 Wireless Controller](#xbox-360-wireless-controller)
   - [MP3 Trigger](#mp3-trigger)
-  - [Adafruit VX Soundboard](#Adafruit VX Soundboard)
+  - [Adafruit VX Soundboard](#Adafruit-VX-Soundboard)
   - [Sabertooth Motor Controller - Feet](#sabertooth-motor-controller---feet)
   - [Syren Motor Controller - Dome](#syren-motor-controller---dome)
   - [Amp and Speakers](#amp-and-speakers)
