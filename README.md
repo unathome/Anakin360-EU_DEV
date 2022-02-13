@@ -18,7 +18,6 @@ Feel free to send me any comment by using the Discussions section of this entity
   - [USB Shield](#usb-shield)
   - [Xbox 360 Wireless USB Receiver](#xbox-360-wireless-usb-receiver)
   - [Xbox 360 Wireless Controller](#xbox-360-wireless-controller)
-  - [MP3 Trigger](#mp3-trigger)
   - [Adafruit VX Soundboard](#Adafruit-VX-Soundboard)
   - [Sabertooth Motor Controller - Feet](#sabertooth-motor-controller---feet)
   - [Syren Motor Controller - Dome](#syren-motor-controller---dome)
@@ -85,11 +84,14 @@ For the body. Main Arduino that runs everything. Receivers, code, connection to 
 
 - ### USB Shield
 
-  Sourced from [Circuits@Home](https://www.circuitsathome.com/products-page/arduino-shields). They've shuffled their links around. Find it on that link labeled "USB Host Shield 2.0 for Arduino – Assembled". They used to offer it assembled and unassembled but as of this writing, they just have it assembled.
+    I have sourced the shield from here [USBShiled](https://www.amazon.de/RoboMall-USB-Host-Shield-Arduino/dp/B00QHEMNOO/ref=sr_1_6?crid=1YX3Z07KNPTQ0&keywords=usb+host+shield&qid=1644743515&sprefix=usb+host%2Caps%2C87&sr=8-6)
+    
+     *NOTE from Dan* I've seen that some of the sheilds do not come with the 2x3 headers that connects the shield to the Arduino board together. This connection is absolutely necessary for the Arduino to talk to the shield over serial (ISCP pins). It will NOT work without this connection. Real dumb. The shield is basically useless without the connection. I spent a while a DroidCon trying to help someone it before realizing that was missing and it's absolutely necessary. You can grab 2x3 headers from Sparkfun for 50 cents. The missing headers seem to be a common issue as the Aamazon reviews are rife with that complaint.
 
-  If Amazon is your thing Sainsmart has a USB Host Shield that has been found to be compatible with Padawan360 (Prime elligble!) SainSmart USB Shield](http://www.amazon.com/SainSmart-Compatible-HOST-Shield-Arduino/dp/B006J4G000/ref=sr_1_1?ie=UTF8&qid=1420994477&sr=8-1&keywords=usb+host+shield+2.0+for+arduino). *NOTE* I've seen that some SainSmart isn't sending them with the 2x3 headers that connects the shield to the Arduino board together. This connection is absolutely necessary for the Arduino to talk to the shield over serial (ISCP pins). It will NOT work without this connection. Real dumb. The shield is basically useless without the connection. I spent a while a DroidCon trying to help someone it before realizing that was missing and it's absolutely necessary. You can grab 2x3 headers from Sparkfun for 50 cents. The missing headers seem to be a common issue as the Aamazon reviews are rife with that complaint.
+    Your USB Shield may need voltage pins jumped. See Steve Baudain's YouTube video here walking through it: https://www.youtube.com/watch?v=y9HEeBO3cV0
+    If you're not such a friend of YT University, just look at the picture below. It tells you what connections on the board must be soldered together.
+    ![Shield](./pics/usb20shield.jpg)
 
-Your USB Shield may need voltage pins jumped. See Steve Baudain's YouTube video here walking through it: https://www.youtube.com/watch?v=y9HEeBO3cV0
 
 - ### Xbox 360 Wireless USB Receiver
 
@@ -104,11 +106,6 @@ Some people have had luck making some adjustments to get some 3rd Party receiver
   [Controller via Amazon](http://www.amazon.com/Xbox-360-Wireless-Controller-Glossy-Black/dp/B003ZSP0WW).  I have a nice blue one to match R2 personally ;) Like the USB Receiver, I highly recommend buying a 1st party official Microsoft controller. I know one user bought one cheap on Ebay and it didn't even have a sync button and there was no X on the center Home button. Your mileage may vary with off-brand components here.
 
   **Note:** I have seen the controller bundled with the USB receiver together. It was in the gaming peripheals department in my local Microcenter. It's marketed for PC gaming. Nice to get it in one package if you can if you don't have an extra 360 controller to spare.
-
-- ### MP3 Trigger
-  This version is not designed for the usage of the Sparkfun Product. We are using an alternative from Adafruit.
- 
-    <del> [Sourced from SparkFun](https://www.sparkfun.com/products/11029). Be sure to get a microSD card too. Nothing too big, it's just MP3s. </del>
 
 - ### Adafruit VX Soundboard
     [Sourced from Adafruit](https://learn.adafruit.com/adafruit-audio-fx-sound-board/overview) No SD Card needed. But the MP3 files needed to be converted into OGG Format. 
@@ -145,7 +142,11 @@ Some people have had luck making some adjustments to get some 3rd Party receiver
 
 Be sure you have the latest version of the Arduino IDE installed available [here at the Arduino website](https://www.arduino.cc/en/Main/Software) and install the libraries included in this repository from the `libraries` folder.
 
-Installing libraries and using the Arduino IDE is beyond the scope of this documentation. Refer to the Arduino website's documentation for how to install libraries and upload software to your Arduino here https://www.arduino.cc/en/Guide and here https://www.arduino.cc/en/guide/libraries#toc5 . Note, you do not need to include the libraries in your sketch as the code to include them is already there. They simply need to be installed so that the Arduino IDE software can find them when compiling the sketch.
+Installing libraries and using the Arduino IDE is beyond the scope of this documentation. Refer to the Arduino website's documentation for how to install libraries and upload software to your Arduino here https://www.arduino.cc/en/Guide and here https://www.arduino.cc/en/guide/libraries#toc5. Lady Ada also have a great tutorial on Arduino library installation at:
+http://learn.adafruit.com/adafruit-all-about-arduino-libraries-install-use
+
+
+Note, you do not need to include the libraries in your sketch as the code to include them is already there. They simply need to be installed so that the Arduino IDE software can find them when compiling the sketch.
 
 ### USB Shield
 
